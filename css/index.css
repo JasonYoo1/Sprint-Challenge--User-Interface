@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    margin-top: 20px;
 }
 ol, ul {
 	list-style: none;
@@ -101,7 +102,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.box {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -143,4 +144,68 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+
+/* My portion */
+
+
+
+.navigation{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav a{
+    padding-left: 70px;
+    text-decoration: none;
+    color: black;
+}
+
+.topImg{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 30px 10px;
+}
+
+#one{
+    background-color: teal;
+}
+
+#two{
+    background-color: gold;
+}
+
+#three{
+    background-color: cadetblue;
+}
+
+#four{
+    background-color: coral;
+}
+
+#five{
+    background-color: crimson;
+}
+
+#six{
+    background-color: forestgreen;
+}
+
+#seven{
+    background-color: darkorchid;
+}
+
+#eight{
+    background-color: hotpink;
+}
+
+#nine{
+    background-color: indigo;
+}
+
+#ten{
+    background-color: dodgerblue;
 }
